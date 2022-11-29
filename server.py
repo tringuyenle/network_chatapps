@@ -27,6 +27,3 @@ while True:
 
     sock.sendto('{} {} {}'.format(c1_addr, c1_port, known_port).encode(), c2)
     sock.sendto('{} {} {}'.format(c2_addr, c2_port, known_port).encode(), c1)
-
-    if __name__ == '__main__':
-        print("helo")
